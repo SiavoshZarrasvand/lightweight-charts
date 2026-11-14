@@ -57,7 +57,7 @@ const candleStickData = generateCandlestickData();
 
 ## Adding a candlestick series
 
-We can now add a [candlestick series](https://tradingview.github.io/lightweight-charts/docs/series-types.md#candlestick) to our chart by using the `addCandlestickSeries` method on the `chart` variable (which is an [IChartApi](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/IChartApi) instance). This will return a series instance which we will assign to a variable named `mainSeries`.
+We can now add a [candlestick series](https://tradingview.github.io/lightweight-charts/docs/series-types.md#candlestick) to our chart by using the `addSeries` method on the `chart` variable (which is an [IChartApi](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/IChartApi) instance), passing it the `CandlestickSeries` type. This will return a series instance which we will assign to a variable named `mainSeries`.
 
 `mainSeries` will be an instance of [`ISeriesApi`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/ISeriesApi) which will provide the API for interacting with the series and it's options.
 
@@ -104,7 +104,7 @@ At this point we should have a chart like this:
 
 🎉 Congrats! We now have a basic, yet beautiful, candlestick chart rendering on our page.
 
-The rest of the tutorial will focus on how to customise this chart to further match our desired visual style and functionality. The next step will be to adjust the chart colors to better suit a dark theme.
+The rest of the tutorial will focus on how to customize this chart to further match our desired visual style and functionality. The next step will be to adjust the chart colors to better suit a dark theme.
 
 ## Download
 

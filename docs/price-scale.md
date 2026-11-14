@@ -19,7 +19,7 @@ The chart will create an overlay price scale with the provided ID.
 If a price scale with such ID already exists, a series will be attached to the existing price scale.
 Further, you can use the provided price scale ID to retrieve its API object using the [`IChartApi.priceScale`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/IChartApi#pricescale) method.
 
-See the [Price and Volume](https://tradingview.github.io/lightweight-charts/tutorials/how_to/price-and-volume.md) article for an example of adding a Volume indicator using an overlay price scale.
+See the [Price and volume](https://tradingview.github.io/lightweight-charts/examples/price-scales/price-and-volume.md) example for adding a Volume indicator using an overlay price scale.
 
 ## Modify price scale
 
@@ -30,6 +30,8 @@ To change the default settings for an overlay price scale, use the [`overlayPric
 You can use the [`IChartApi.priceScale`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/IChartApi#pricescale) method to retrieve the API object for any price scale.
 Similarly, to access the API object for the price scale that a series is attached to, use the [`ISeriesApi.priceScale`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/ISeriesApi#pricescale) method.
 
+See the [Two price scales](https://tradingview.github.io/lightweight-charts/examples/price-scales/two-price-scales.md), [Inverted price scale](https://tradingview.github.io/lightweight-charts/examples/price-scales/inverted-price-scale.md), [Price scale modes](https://tradingview.github.io/lightweight-charts/examples/price-scales/price-scale-modes.md), and [Custom price format](https://tradingview.github.io/lightweight-charts/examples/price-scales/custom-price-format.md) examples.
+
 ## Remove price scale
 
 The default left and right price scales cannot be removed, you can only hide them by setting the [`visible`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/PriceScaleOptions#visible) option to `false`.
@@ -39,7 +41,7 @@ To remove an overlay price scale, remove all series attached to this price scale
 
 ---
 
-Documentation for Lightweight Charts™ v5.2 (latest released version).
+Documentation for Lightweight Charts™ v5.3 (latest released version).
 
 ## Sitemap
 

@@ -22,7 +22,7 @@ So, to migrate your code to 3.0 you just need to replace:
 
 We understand disadvantages of breaking changes in the API, so we have not removed support of the current API at all, but have deprecated it, so the most common cases will continue to work.
 
-You can refer to the new API [here](https://tradingview.github.io/lightweight-charts/docs/price-scale.md).
+You can refer to the [new price scale API](https://tradingview.github.io/lightweight-charts/docs/price-scale.md).
 
 Following are migration rules.
 
@@ -159,7 +159,7 @@ New version does not support this case via the old API, so, if you use it, you s
 
 ---
 
-Documentation for Lightweight Charts™ v5.2 (latest released version).
+Documentation for Lightweight Charts™ v5.3 (latest released version).
 
 ## Sitemap
 
